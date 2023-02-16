@@ -1,17 +1,10 @@
 #include <stdio.h>
-
-
 /**
- * main
- * this program write ("Programming is like building a multilingual puzzle)
- * followed by a new line
- * Return 0.
+ * main - A_that_puts_sentence
+ * Return: 0 (Success)
  */
-
-
-int main (void)
-{	
-	puts ("\"Programming is like building a multilingual puzzle");
-	
-	return (0);
+int main(void)
+{
+puts("\"Programming is like building a multilingual puzzle");
+return (0);
 }
