@@ -1,4 +1,4 @@
-#include <stio.h>
+#include <stdio.h>
 /**
  * this program write "Programming is like building a multilingual puzzle"
  */
