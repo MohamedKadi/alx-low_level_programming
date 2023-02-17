@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 /**
  * main - put a random number and he will tell you if + or - or 0
  * Return: Always 0
