@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include "main.h"
 /**
  * main - entry point
  * Return: 0
@@ -20,7 +20,7 @@ int main(void)
 		{
 			printf("Buzz");
 		}
-		else if (x % 3 == 0 && x % 5 == 0)
+		else if ((x % 3 == 0) && (x % 5 == 0))
 		{
 			printf("FizzBuzz");
 		}
@@ -28,9 +28,12 @@ int main(void)
 		{
 			printf("%d", x);
 		}
-
-		printf("\n");
-
-		return (0);
+		if (x != 100)
+		{
+			printf(" ");
+		}
 	}
+	printf("\n");
+
+	return (0);
 }
