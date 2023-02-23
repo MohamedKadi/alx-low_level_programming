@@ -28,9 +28,9 @@ int main(void)
 		{
 			printf("%d", x);
 		}
+
+		printf("\n");
+
+		return (0);
 	}
-
-	printf("\n");
-
-	return (0);
 }
